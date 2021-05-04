@@ -1,0 +1,68 @@
+{
+  "name": "ui-kitten",
+  "version": "5.0.0",
+  "private": true,
+  "license": "MIT",
+  "author": "akveo <contact@akveo.com>",
+  "homepage": "https://github.com/akveo/react-native-ui-kitten#readme",
+  "repository": "git+https://github.com/akveo/react-native-ui-kitten.git",
+  "bugs": {
+    "url": "https://github.com/akveo/react-native-ui-kitten/issues"
+  },
+  "workspaces": {
+    "packages": [
+      "src/*",
+      "docs"
+    ]
+  },
+  "scripts": {
+    "demo": "yarn --cwd ../kittenTricks",
+    "build": "gulp build",
+    "clean": "rimraf ./dist",
+    "lint": "tslint -c ./tslint.json ./src/**/*.{ts,tsx}",
+    "test": "jest",
+    "parse-docs": "gulp parse-docs",
+    "bump-version": "gulp bump-version && conventional-changelog -i CHANGELOG.md -s",
+    "publish-docs": "npm run parse-docs && gulp publish-docs",
+    "publish-packages": "gulp publish-packages"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-decorators": "^7.6.2",
+    "@eva-design/eva": "^2.0.0",
+    "@eva-design/material": "^2.0.0",
+    "@types/gulp": "ts3.8",
+    "@types/gulp-replace": "ts3.8",
+    "@types/jest": "ts3.8",
+    "@types/lodash.merge": "ts3.8",
+    "@types/react-native": "ts3.8",
+    "@types/react-test-renderer": "ts3.8",
+    "@types/rimraf": "ts3.8",
+    "babel-jest": "^24.9.0",
+    "change-case": "^3.1.0",
+    "conventional-changelog-cli": "^2.0.21",
+    "coveralls": "^3.0.2",
+    "doc-prsr": "^2.2.4",
+    "gulp": "^4.0.2",
+    "gulp-typedoc": "^2.2.3",
+    "husky": "^1.1.2",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react": "~16.9.0",
+    "react-native": "~0.61.4",
+    "react-native-svg": "~9.13.6",
+    "react-native-testing-library": "^1.12.0",
+    "react-test-renderer": "16.9.0",
+    "rimraf": "^2.6.2",
+    "ts-node": "^3.2.2",
+    "tscpaths": "0.0.9",
+    "tslint": "^5.12.1",
+    "typedoc": "^0.15.3",
+    "typescript": "^3.8.2"
+  },
+  "resolutions": {
+    "react": "~16.9.0",
+    "react-native": "~0.61.5",
+    "react-native-svg": "~9.13.3"
+  }
+}

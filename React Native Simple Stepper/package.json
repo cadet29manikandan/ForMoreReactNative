@@ -1,0 +1,53 @@
+{
+  "name": "react-native-simple-stepper",
+  "version": "3.0.3",
+  "description": "A super simple react-native implementation of the UIStepper from iOS.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testshallpass/react-native-simple-stepper.git"
+  },
+  "keywords": [
+    "react-component",
+    "control",
+    "react-native-component",
+    "ios",
+    "android",
+    "react-native",
+    "UIStepper",
+    "stepper",
+    "simple-stepper",
+    "SimpleStepper",
+    "simple stepper",
+    "simple_stepper",
+    "simple"
+  ],
+  "author": "Brian Sinnicke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/testshallpass/react-native-simple-stepper/issues"
+  },
+  "homepage": "https://github.com/testshallpass/react-native-simple-stepper#readme",
+  "devDependencies": {
+    "@babel/core": "7.7.7",
+    "@babel/preset-env": "7.7.7",
+    "babel-jest": "26.0.1",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.2",
+    "jest": "26.0.1",
+    "metro-react-native-babel-preset": "0.57.0",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-native": "0.61.5",
+    "react-test-renderer": "16.9.0"
+  },
+  "dependencies": {
+    "prop-types": "15.5.10"
+  }
+}
