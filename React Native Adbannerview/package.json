@@ -1,0 +1,38 @@
+{
+  "name": "react-native-adbannerview",
+  "description": "React Native Bridge for ADBannerView",
+  "homepage": "https://github.com/Purii/react-native-adbannerview",
+  "version": "1.4.0",
+  "author": "Patrick Puritscher <hello@patrickpuritscher.com>",
+  "scripts": {
+    "lint": "eslint index.js lib/",
+    "test": "npm run lint"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "ADBannerView",
+    "iAd",
+    "ios"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.25 || 0.28.0-rc"
+  },
+  "bugs": {
+    "url": "https://github.com/Purii/react-native-adbannerview/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Purii/react-native-adbannerview.git"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.3.0",
+    "eslint-plugin-react": "^5.1.1"
+  }
+}

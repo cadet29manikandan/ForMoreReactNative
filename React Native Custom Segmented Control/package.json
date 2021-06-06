@@ -1,0 +1,28 @@
+{
+  "name": "react-native-custom-segmented-control",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wix/react-native-custom-segmented-control"
+  },
+  "version": "3.1.0",
+  "description": "Native iOS Custom segmented control for React Native",
+  "nativePackage": true,
+  "homepage": "https://github.com/wix/react-native-custom-segmented-control",
+  "main": "src/index.js",
+  "author": "Ran Greenberg <gran33@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "watchman watch-del-all && node node_modules/react-native/local-cli/cli.js start",
+    "xcode": "open ios/example.xcodeproj"
+  },
+  "dependencies": {
+    "lodash": "^4.0.0"
+  },
+  "devDependencies": {
+    "react": "16.6.0-alpha.8af6728",
+    "react-native": "0.57.4"
+  }
+}

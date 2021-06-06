@@ -1,0 +1,54 @@
+{
+  "name": "react-native-simple-router",
+  "version": "0.12.0",
+  "description": "Easy to use Navigator for your react-native app.",
+  "author": "Tristan Edwards <tristan.edwards@me.com> (http://tristanedwards.me)",
+  "contributors": [
+    "Mikael Carpenter",
+    "Nicolas Charpentier",
+    "David Leonardi",
+    "Michael Malura <maluramichael@googlemail.com> (https://michaelmalura.de)"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . --ignore-pattern examples/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/react-native-simple-router-community/react-native-simple-router.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-native",
+    "ios",
+    "navigation",
+    "navigation-bar",
+    "navbar",
+    "router",
+    "simple"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/react-native-simple-router-community/react-native-simple-router/issues"
+  },
+  "homepage": "https://github.com/react-native-simple-router-community/react-native-simple-router",
+  "dependencies": {
+    "aspect-js": "^1.0.3",
+    "underscore": "^1.8.3"
+  },
+  "peerDependencies": {
+    "prop-types": "*",
+    "react": "*",
+    "react-native-deprecated-custom-components": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.0",
+    "eslint-plugin-jsx-a11y": "^1.2.0",
+    "eslint-plugin-react": "^5.1.1"
+  }
+}

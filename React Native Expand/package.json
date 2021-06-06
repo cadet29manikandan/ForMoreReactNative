@@ -1,0 +1,29 @@
+{
+  "name": "react-native-expand",
+  "version": "1.0.6",
+  "description": "A expandable component for React Native",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hejiaji/react-native-expand.git"
+  },
+  "author": "Jeremy He",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hejiaji/react-native-expand/issues"
+  },
+  "homepage": "https://github.com/hejiaji/react-native-expand#readme",
+  "devDependencies": {
+    "react": "15.3.2",
+    "react-native": "^0.35.0",
+    "babel-eslint": "4.1.6",
+    "eslint": "3.7.1",
+    "eslint-config-airbnb": "12.0.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "6.4.0",
+    "eslint-plugin-import": "1.16.0"
+  }
+}
